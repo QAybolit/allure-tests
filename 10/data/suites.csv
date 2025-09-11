@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 11 14:34:52 GMT 2025","Thu Sep 11 14:35:04 GMT 2025","11585","","tests.GithubLambdaStepsTests","","tests.GithubLambdaStepsTests","searchGithubIssueInRepoWithLambdaStepsTest","Проверка наличия Issue в репозитории",""
+"passed","Thu Sep 11 14:35:13 GMT 2025","Thu Sep 11 14:35:22 GMT 2025","9336","","tests.GithubStepsTest","","tests.GithubStepsTest","searchGithubIssueInRepoWithLambdaStepsTest","Проверка наличия Issue в репозитории",""
+"passed","Thu Sep 11 14:35:04 GMT 2025","Thu Sep 11 14:35:13 GMT 2025","8964","","tests.GithubSelenideTests","","tests.GithubSelenideTests","searchGithubIssueInRepoTest","Проверка наличия Issue в репозитории",""
