@@ -17,32 +17,27 @@ public class GithubSteps {
     @Step("Открыть главную страницу GitHub")
     public void openMainPage() {
         open("");
-        takeScreenshot();
     }
 
     @Step("Найти репозиторий '{repo}' через строку поиска")
     public void findRepository(String repo) {
         $(".header-search-button").click();
         $("#query-builder-test").setValue(repo).pressEnter();
-        takeScreenshot();
     }
 
     @Step("Кликнуть по ссылке репозитория")
     public void clickRepositoryLink(String repo) {
         $(By.linkText(repo)).shouldBe(visible).click();
-        takeScreenshot();
     }
 
     @Step("В открывшемся репозитории нажать на таб Issue")
     public void clickIssueTab() {
         $("#issues-tab").shouldBe(visible).click();
-        takeScreenshot();
     }
 
     @Step("Проверить, что заголовок первого Issue во вклвдке равен '{issueTitle}")
     public void checkIssueTitle(String issueTitle) {
         $("[class*='IssueRow-module__row'] li").shouldBe(visible).shouldHave(text(issueTitle));
-        takeScreenshot();
     }
 
     @Attachment(value = "Screenshot", type = "image/png", fileExtension = "png")
