@@ -22,14 +22,14 @@ allure {
 }
 
 dependencies {
-    constraints {
-        add('implementation', 'org.junit.jupiter:junit-jupiter-api') {
-            version { strictly '5.11.3' }
-        }
-        add('implementation', 'org.junit.platform:junit-platform-launcher') {
-            version { strictly '1.11.3' }
-        }
-    }
+//    constraints {
+//        add('implementation', 'org.junit.jupiter:junit-jupiter-api') {
+//            version { strictly '5.11.3' }
+//        }
+//        add('implementation', 'org.junit.platform:junit-platform-launcher') {
+//            version { strictly '1.11.3' }
+//        }
+//    }
 
     testImplementation(
             'io.qameta.allure:allure-selenide:2.29.1',
